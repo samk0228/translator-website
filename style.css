@@ -1,3 +1,4 @@
+/* Import Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
@@ -151,37 +152,37 @@ li,
 }
 
 @media (max-width: 660px) {
-    .container {
-        padding: 20px;
-    }
+  .container {
+    padding: 20px;
+  }
 
-    .wrapper .text-input {
-        flex-direction: column;
-    }
+  .wrapper .text-input {
+    flex-direction: column;
+  }
 
-    .text-input .to-text {
-        border-left: 0;
-        border-top: 1px solid #ccc;
-    }
+  .text-input .to-text {
+    border-left: 0px;
+    border-top: 1px solid #ccc;
+  }
 
-    .text-input textarea {
-        height: 200px;
-    }
+  .text-input textarea {
+    height: 200px;
+  }
 
-    .controls .row .icons {
-        display: none;
-    }
+  .controls .row .icons {
+    display: none;
+  }
 
-    .container button {
-        padding: 13px;
-        font-size: 16px;
-    }
+  .container button {
+    padding: 13px;
+    font-size: 16px;
+  }
 
-    .controls .row select {
-        font-size: 16px;
-    }
-    
-    .controls .exchange {
-        font-size: 14px;
-    }
+  .controls .row select {
+    font-size: 16px;
+  }
+
+  .controls .exchange {
+    font-size: 14px;
+  }
 }
